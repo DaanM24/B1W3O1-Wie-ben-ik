@@ -1,8 +1,64 @@
-div h1 {
-    text-align: center;
-    font-size: 50px;
-    border: 2px solid #ff4d4d;
-    width: 100%;
-    background-color: #ff4d4d;
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    border: 1px solid black;
+    width: 150px;
+    float: left;
 }
 
+h1{
+    text-align: center;
+}
+
+img{
+    float:left;
+}
+
+p{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+li {
+    border-bottom: 1px solid black;
+}
+
+li a{
+    display: block;
+    background-color: #e6ffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover{
+    background-color: #66ccff;
+}
+
+li a.active{
+    background-color: #66ccff;
+    color: white;
+}
+
+body {
+    background-image: url("../Images/background.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 1600px 755px;
+}
+
+main.textholder{
+    position: absolute;
+    left: 170px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 85%;
+    border: 1px solid black;
+}
